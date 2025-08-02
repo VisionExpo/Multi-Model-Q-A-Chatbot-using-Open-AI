@@ -95,8 +95,10 @@ if user_prompt:
             response_time = time.perf_counter() - start
             
         st.caption(f"Response generated in {response_time:.2f} seconds")
-
-    st.write(response['answer'])
+        st.write(response['answer'])
+    except Exception as e:
+        st.error(f"An error occurred: {str(e)}")
+        st.stop()
 
     ## with streamlit expander
 
