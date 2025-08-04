@@ -9,3 +9,8 @@ langchain
 langchain-chroma
 langchain_huggingface
 sentence-transformers
+ipykernel
+wikipedia
+langchain-text-splitters
+arxiv
+faiss-cpu
